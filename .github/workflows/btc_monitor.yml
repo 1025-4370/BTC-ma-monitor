@@ -4,7 +4,7 @@ name: BTC均线信号监控
 on:
   schedule:
     # 每30分钟运行一次 (UTC时间)
-    - cron: '*/5 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch: # 手动触发
 
 jobs:
